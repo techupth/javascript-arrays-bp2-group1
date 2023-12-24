@@ -4,7 +4,9 @@ const student = {
   subjects: ["Math", "Science", "History"],
 };
 
-console.log("Student Name: " + stdent.name);
-console.log("Student Age: " + student.age);
-console.log("Student Grade: " + student.gade);
-console.log("Student Subjects: " + student.subjects);
+student.age = 18
+console.log(student)
+console.log(student.name);
+console.log(student.age);
+console.log(student.grade);
+console.log(student.subjects);
